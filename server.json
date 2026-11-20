@@ -1,0 +1,15 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "com.qorlie/qorlie",
+  "title": "Qorlie",
+  "description": "Make QR codes and editable links that never expire. Edit destinations and read scan analytics.",
+  "version": "0.3.0",
+  "websiteUrl": "https://qorlie.com/en/docs/api",
+  "icons": [
+    { "src": "https://qorlie.com/icon.png", "mimeType": "image/png", "sizes": ["1024x1024"] }
+  ],
+  "remotes": [
+    { "type": "streamable-http", "url": "https://api.qorlie.com/mcp" }
+  ]
+}
+
